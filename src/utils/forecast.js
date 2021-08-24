@@ -16,7 +16,7 @@ const forecast = (lat, long, callback) => {
             const uv_index = body.current.uv_index;
             callback(undefined,
 
-                desc + ' .It is currently ' + temp + ' degrees.It feels like ' + feelsLike + '. The UV index is ' + uv_index
+                desc + ' .It is currently ' + temp + ' degrees.It feels like ' + feelsLike + '. The UV index is ' + uv_index + 'Take Care'
             )
         }
 
